@@ -120,7 +120,7 @@ span {
 .always-container {
     background-image: url('./images/watch.png'), url('./images/gradient1.png');
     background-blend-mode: overlay;
-    width:94%;
+    width: 94%;
     height: 300px;
     margin: auto;
     margin-top: 50px;
@@ -130,18 +130,88 @@ span {
     background-position: center;
     background-repeat: no-repeat;
 }
-.alwyas-text{
+
+.alwyas-text {
     padding: 100px 0 100px 70px;
     color: white;
 
 }
-.always-title{
+
+.always-title {
     font-size: 40px;
 }
-.always-btn{
-    padding:10px 20px;
+
+.always-btn {
+    padding: 10px 20px;
     color: blue;
     border: none;
     border-radius: 5px;
     margin-top: 15px;
+}
+
+/* this is footer */
+
+.footer-container {
+    height: 400px;
+    width: 100%;
+    background-color: #151414;
+    justify-content: space-around;
+    align-items: center;
+    /* text-align: center; */
+    /* padding: 230px 0; */
+    display: flex;
+    color: white;
+}
+
+.footer-title {
+    color: white;
+}
+
+.footer-des {
+    color: #FFF;
+    width: 485px;
+    font-family: Work Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.foot-email {
+    padding: 10px 5px;
+    border: none;
+    color: var(--dark-07, #F3F3F3);
+    font-family: Work Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 5px;
+
+}
+
+.sub-btn {
+    padding: 10px 15px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.sub-title {
+    margin-bottom: 20px;
+}
+
+.footer-title {
+    margin-bottom: 20px;
+}
+
+.footer-des {
+    margin-bottom: 20px;
+}
+
+.footer-icon {
+
+    margin-top: 10px;
+    color: white;
 }
